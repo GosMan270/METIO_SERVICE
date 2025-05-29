@@ -1,0 +1,16 @@
+services:
+  metio_front:
+    build:
+      context: ./metio_site
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "3000:3000"
+
+  metio_back:
+    build:
+      context: ./api_for_metio_site
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - "8000:8000"
