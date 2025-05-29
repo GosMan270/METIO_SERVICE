@@ -1,0 +1,47 @@
+# FastAPI и сервер
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Для работы с погодой
+openmeteo-requests==1.1.0
+requests-cache==1.1.1
+retry-requests==2.0.0
+
+# Асинхронные запросы
+aiohttp==3.9.1
+httpx==0.25.2
+
+# Работа с данными
+pandas==2.1.4
+numpy==1.26.2
+
+# База данных
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.12.1
+
+# Redis для кеширования
+redis==5.0.1
+aioredis==2.0.1
+
+# Валидация и сериализация
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# CORS и безопасность
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Логирование
+loguru==0.7.2
+
+# Тестирование (опционально)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Утилиты
+python-dateutil==2.8.2
+pytz==2023.3
