@@ -1,0 +1,23 @@
+Директории среды разработки Python
+
+venv/
+.venv/
+Файлы кеша Python
+
+pycache/
+*.py[cod]
+Лог-файлы
+
+*.log
+Файлы баз данных (SQLite и похожие)
+
+*.db
+*.sqlite
+Кеш requests_cache
+
+.cache/
+*.sqlite
+Настройки IDE (пример для PyCharm)
+
+.idea/
+*.iml

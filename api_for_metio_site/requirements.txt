@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+openmeteo-requests
+aiohttp
+aiosqlite
+pandas
+requests-cache
+retry-requests
+pydantic
+python-multipart
+numpy
+httpx
+python-dateutil
