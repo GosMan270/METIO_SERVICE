@@ -1,6 +1,0 @@
-[submodule "api_for_metio_site"]
-	path = api_for_metio_site
-	url = https://github.com/yourusername/api_for_metio_site.git
-[submodule "metio_site"]
-	path = metio_site
-	url = https://github.com/yourusername/metio_site.git
